@@ -1,0 +1,18 @@
+{
+  "name": "chris/validator",
+  "authors": [
+    {
+      "name": "chrisevansvsoft",
+      "email": "chris.evans@visualsoft.co.uk"
+    }
+  ],
+  "require": {
+    "phpoption/phpoption": "^1.5",
+    "functional-php/pattern-matching": "^0.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Validator\\": "src/"
+    }
+  }
+}
